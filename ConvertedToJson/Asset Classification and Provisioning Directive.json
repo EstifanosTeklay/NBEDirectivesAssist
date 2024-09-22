@@ -1,4 +1,5 @@
-{
+[
+    {
     "document_id": "Asset Classification and Provisioning Directive",
     "title": "Asset Classification and Provisioning Directive",
     "sections": [
@@ -220,3 +221,5 @@
         }
     ]
 }
+
+]
