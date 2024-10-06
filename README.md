@@ -35,6 +35,6 @@ The application dynamically selects the best retrieval method based on query cha
   4. RagImplementationelasticsearch.ipynb-Implementation of the RAG system using ElasticSearch Vector Database
   5. RAGSemanticsearchImplementation.ipynb-Semantic Search Implementation of the RAG system.
  - Scripts- containes python scripts for main applications.
-  1. mainapp.py - streamlit app with out contenerization
-  2. finalized_mainapp.py - Contenerized application that contains all tasks.
-
+   1. mainapp.py - streamlit app with out contenerization
+   2. finalized_mainapp.py - Contenerized application that contains all tasks.
+ 
