@@ -82,5 +82,4 @@ The application dynamically selects the best retrieval method based on query cha
 - Port Conflicts: Make sure ports 9200, 8501, and 8000 are available. If not, update docker-compose.yml to use different ports.
 - Document Ingestion Errors: Confirm the presence of documents in the ./documents folder and check file permissions.
 ### RAG project in Action
- ![creditscore](https://github.com/Daniel-Andarge/AiML-credit-risk---loan-optimization-ml/blob/main/assets/FICO_Score.png)
- 
+https://github.com/EstifanosTeklay/NBEDirectivesAssist/blob/main/raginactiontwo.png
