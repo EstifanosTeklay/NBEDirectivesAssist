@@ -86,4 +86,15 @@ The application dynamically selects the best retrieval method based on query cha
 ![RAG Action Two](https://github.com/EstifanosTeklay/NBEDirectivesAssist/blob/main/raginactiontwo.png)
 - User Query 2
  ![RAG Action one](https://github.com/EstifanosTeklay/NBEDirectivesAssist/blob/main/raginactionone.png)
+### Contributing
+feedback and suggestions are always welcome. If you have any thoughts or comments, reach out via [email](estifanosteklay1@gmail.com) or [LinkedIn](https://www.linkedin.com/in/estifanosteklay/).
+## License
+This project is licensed under the [MIT License](LICENSE).
+### Contact
+- **Email**: [Send Message](mailto:estifanosteklay1@gmail.com)
+- **LinkedIn**: [Daniel Andarge](https://www.linkedin.com/in/estifanosteklay/)
+
+### Author
+
+👤 **Estifanos Teklay**
 
