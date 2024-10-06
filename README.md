@@ -28,4 +28,13 @@ The application dynamically selects the best retrieval method based on query cha
 ### Directories
 - National Bank of Ethiopia Directive- Contains Source Documents of National Bank of Ethiopia in PDF format.
 - ConvertedToJson-containes Json files of the Converted PDF Files.
+- Notebooks-containes notebook files for different tasks specified below.
+  1. minsearchimplementation.ipynb- Implementation of the RAG system using minsearch search engine
+  2. minsearchmodularcode.ipynb- Modular Implementation of the RAG system using minsearch search engine
+  3. PdfToJsonConversion.ipynb- Converts The source PDF files to Json files
+  4. RagImplementationelasticsearch.ipynb-Implementation of the RAG system using ElasticSearch Vector Database
+  5. RAGSemanticsearchImplementation.ipynb-Semantic Search Implementation of the RAG system.
+ - Scripts- containes python scripts for main applications.
+  1. mainapp.py - streamlit app with out contenerization
+  2. finalized_mainapp.py - Contenerized application that contains all tasks.
 
