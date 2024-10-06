@@ -11,7 +11,7 @@ from groq import Groq
 def authenticate_user(username, password):
     # Simple authentication logic, replace with a more secure mechanism
     # Can check against a database or API for user credentials
-    if username == "awashuser" and password == "password123":
+    if username == "bankuser" and password == "password123":
         return True
     else:
         return False
@@ -79,17 +79,17 @@ def rag(query):
 
 # Streamlit app
 def main():
-    st.set_page_config(page_title="Awash Bank RAG Assistant", page_icon="🏦")
+    st.set_page_config(page_title="National bank of Ethiopia Direcitves Assistant", page_icon="🏦")
     
     # Define a logo for Awash Bank, you can use different logos for different pages
-    st.sidebar.image("awash_bank_logo.png", width=200)
+    st.sidebar.image("nbelogo.png", width=200)
     
     # Authentication page
     if 'authenticated' not in st.session_state:
         st.session_state.authenticated = False
 
     if not st.session_state.authenticated:
-        st.title("Awash Bank RAG Assistant Login")
+        st.title("Enter username and password")
         username = st.text_input("Username")
         password = st.text_input("Password", type="password")
         if st.button("Login"):
@@ -101,10 +101,11 @@ def main():
         return
     
     # Main page after authentication
-    st.title("Awash Bank RAG Assistant")
+    st.title("National bank of Ethiopia Directives Assistant")
     
     # Display a different logo for the main page
-    st.image(r"D:\NBEDirectivesAssist\awash_bank_main_logo.png", width=200)
+    st.image("nbemainlogo.png", width=200)
+
     
     # User input for the query
     user_query = st.text_input("Ask a question about National Bank of Ethiopia directives:")
