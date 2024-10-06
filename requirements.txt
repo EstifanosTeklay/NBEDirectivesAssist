@@ -1,1 +1,13 @@
-
+streamlit
+pandas
+PyMuPDF
+pytesseract
+elasticsearch
+tqdm
+groq
+streamlit==1.24.0
+elasticsearch==7.16.0
+sentence-transformers==2.2.2
+transformers==4.33.2
+prometheus_client==0.16.0
+torch==2.0.1+cpu  # or torch==2.0.1+cu117 for GPU support
