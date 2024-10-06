@@ -37,4 +37,33 @@ The application dynamically selects the best retrieval method based on query cha
  - Scripts- containes python scripts for main applications.
    1. mainapp.py - streamlit app with out contenerization
    2. finalized_mainapp.py - Contenerized application that contains all tasks.
+## How to run the project
+### Prerequisites
+- Docker and Docker Compose installed on your system
+- Download and run Elastic Search Vector DB
+- Generate API keys from GROQ website and replace the API keys with your newly created APIS
+
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Daniel-Andarge/AiML-credit-risk---loan-optimization-ml.git](https://github.com/EstifanosTeklay/NBEDirectivesAssist.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd NBEDirectivesAssist
+   ```
+
+3. Install the required dependencies::
+   ```bash
+  pip install -r requirements.txt
+   ```
+#### Method 1(runing the mainapp with out contenerization)
+4. run Elastic search and start the streamlit app:
+   ```bash
+  # CD Scripts
+  # streamlit run mainapp.py
+   ```
+5. use username-bankuser and password-password123 and enjoy the Assistant.
+ #### Method 2(running the Contenerized finlized main app)
  
