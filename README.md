@@ -61,9 +61,9 @@ The application dynamically selects the best retrieval method based on query cha
 - Method 1: runing the mainapp with out contenerization
 4. run Elastic search and start the streamlit app:
    ```bash
-  # CD Scripts
-  # streamlit run mainapp.py
-  # use username-bankuser and password-password123 and enjoy the Assistant.
+    CD Scripts
+   streamlit run mainapp.py
+   use username-bankuser and password-password123 and enjoy the Assistant.
    ```
 - Method 2: Running the Containerized Finalized Main App
 5. Run the application using Docker Compose:
