@@ -53,16 +53,10 @@ The application dynamically selects the best retrieval method based on query cha
    ```bash
    cd NBEDirectivesAssist
    ```
-2. Navigate to the project directory:
+2. Install the required dependencies:
    ```bash
-   cd NBEDirectivesAssist
+   pip install -r requirements.txt
    ```
-
-3. Install the required dependencies:
-   ```bash
-  pip install -r requirements.txt
-   ```
-
 #### Method 1(runing the mainapp with out contenerization)
 4. run Elastic search and start the streamlit app:
    ```bash
@@ -71,4 +65,14 @@ The application dynamically selects the best retrieval method based on query cha
    ```
 5. use username-bankuser and password-password123 and enjoy the Assistant.
  #### Method 2(running the Contenerized finlized main app)
+  ```bash
+  # docker-compose up --build
+  # docker-compose up
+  # Go to the Streamlit app at http://localhost:8501
+  # Open http://localhost:8000 in your browser to access the Prometheus dashboard
+   ```
+### Troubleshooting Tips
+-Elasticsearch Issues: If Elasticsearch fails to start, ensure Docker has sufficient memory allocated (at least 4GB).
+-Port Conflicts: Make sure ports 9200, 8501, and 8000 are available. If not, update docker-compose.yml to use different ports.
+-Document Ingestion Errors: Confirm the presence of documents in the ./documents folder and check file permissions.
  
