@@ -12,7 +12,7 @@ A Retrieval-Augmented Generation (RAG) system will address these challenges by p
 ## Features
 - **Objective**: Conduct in-depth customer segmentation using RFMS (Recency, Frequency, Monetary Value, and Standard Deviation of Amount Spent) scores.
 
-**RAG Flow: The application employs a hybrid RAG flow that integrates both a knowledge base (Elasticsearch) and a Large Language Model (LLM) for query rewriting and response generation.
+- **RAG Flow: The application employs a hybrid RAG flow that integrates both a knowledge base (Elasticsearch) and a Large Language Model (LLM) for query rewriting and response generation.
 **Retrieval Evaluation: Multiple retrieval approaches are implemented and evaluated in this project:
 ****BM25: Traditional term-based retrieval method.
 ****Dense Vector Search: Semantic retrieval using sentence transformers.
