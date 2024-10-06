@@ -92,7 +92,7 @@ feedback and suggestions are always welcome. If you have any thoughts or comment
 This project is licensed under the [MIT License](LICENSE).
 ### Contact
 - **Email**: [Send Message](mailto:estifanosteklay1@gmail.com)
-- **LinkedIn**: [Daniel Andarge](https://www.linkedin.com/in/estifanosteklay/)
+- **LinkedIn**: [Estifanos Teklay](https://www.linkedin.com/in/estifanosteklay/)
 
 ### Author
 
