@@ -64,44 +64,15 @@ The application dynamically selects the best retrieval method based on query cha
   # streamlit run mainapp.py
   # use username-bankuser and password-password123 and enjoy the Assistant.
    ```
+#### Method 2: Running the Containerized Finalized Main App
+1. Run the application using Docker Compose:
+   ```bash
+   docker-compose up --build
+   docker-compose up
+2. Access the application:
+Go to the Streamlit app at http://localhost:8501
+Open the Prometheus dashboard at http://localhost:8000
 
- #### Method 2(running the Contenerized finlized main app)
-Steps 
-  ```bash
-  # docker-compose up --build
-  # docker-compose up
-  # Go to the Streamlit app at http://localhost:8501
-  # Open http://localhost:8000 in your browser to access the Prometheus dashboard
-   ```
-Running the Application
-Method 1: Running the Main App without Containerization
-Start Elasticsearch and the Streamlit application:
-
-bash
-Copy code
-# Navigate to the project directory
-cd Scripts
-# Run the Streamlit app
-streamlit run mainapp.py
-Use the following credentials to access the Assistant:
-
-Username: bankuser
-Password: password123
-Method 2: Running the Containerized Application
-Build and run the application using Docker Compose:
-
-bash
-Copy code
-docker-compose up --build
-Alternatively, if the images are already built, start the application directly:
-
-bash
-Copy code
-docker-compose up
-Access the application:
-
-Streamlit App: http://localhost:8501
-Prometheus Dashboard: http://localhost:8000
 ### Troubleshooting Tips
 - Elasticsearch Issues: If Elasticsearch fails to start, ensure Docker has sufficient memory allocated (at least 4GB).
 - Port Conflicts: Make sure ports 9200, 8501, and 8000 are available. If not, update docker-compose.yml to use different ports.
