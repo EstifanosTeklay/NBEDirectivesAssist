@@ -58,7 +58,8 @@ The application dynamically selects the best retrieval method based on query cha
    ```bash
   pip install -r requirements.txt
    ```
-#### Method 1(runing the mainapp with out contenerization)
+
+###Method 1(runing the mainapp with out contenerization)
 4. run Elastic search and start the streamlit app:
    ```bash
   # CD Scripts
