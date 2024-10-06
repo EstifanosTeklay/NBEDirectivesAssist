@@ -53,6 +53,10 @@ The application dynamically selects the best retrieval method based on query cha
    ```bash
    cd NBEDirectivesAssist
    ```
+2. Navigate to the project directory:
+   ```bash
+   cd NBEDirectivesAssist
+   ```
 
 3. Install the required dependencies:
    ```bash
