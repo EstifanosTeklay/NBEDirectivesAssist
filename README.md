@@ -9,7 +9,7 @@ A Retrieval-Augmented Generation (RAG) system will address these challenges by p
 3. Boost Operational Efficiency: Employees can quickly retrieve answers to complex regulatory questions without needing to search lengthy documents or depend on legal teams, saving time and resources.
 4. Ensure Consistency: The system provides consistent, accurate responses across departments, preventing misinterpretation and ensuring uniform application of directives.
 5. Democratize Knowledge: With easy access to directives, the RAG system reduces dependency on key personnel and ensures that every employee, from compliance officers to front-line staff, is equipped with the latest regulatory knowledge.
-## Features
+## NBE Directives Assist Project Features
 - RAG Flow: The application employs a hybrid RAG flow that integrates both a knowledge base (Elasticsearch) and a Large Language Model (LLM) for query rewriting and response generation.
 - Retrieval Evaluation: Multiple retrieval approaches are implemented and evaluated in this project:
   1. BM25: Traditional term-based retrieval method.
@@ -24,4 +24,8 @@ The application dynamically selects the best retrieval method based on query cha
   1. Hybrid Search: Combines BM25 and dense vector search to maximize retrieval accuracy.
   2. Document Re-ranking: prioritizes retrieved documents based on relevance before displaying them to the user.
   3. User Query Rewriting: Utilizes the t5-base model to rewrite queries for improved retrieval precision and relevance.
+## Project Strcture
+### Directories
+- National Bank of Ethiopia Directive- Contains Source Documents of National Bank of Ethiopia in PDF format.
+- ConvertedToJson-containes Json files of the Converted PDF Files.
 
