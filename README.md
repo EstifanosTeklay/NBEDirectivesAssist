@@ -10,6 +10,8 @@ A Retrieval-Augmented Generation (RAG) system will address these challenges by p
 4. Ensure Consistency: The system provides consistent, accurate responses across departments, preventing misinterpretation and ensuring uniform application of directives.
 5. Democratize Knowledge: With easy access to directives, the RAG system reduces dependency on key personnel and ensures that every employee, from compliance officers to front-line staff, is equipped with the latest regulatory knowledge.
 ## Features
+- **Objective**: Conduct in-depth customer segmentation using RFMS (Recency, Frequency, Monetary Value, and Standard Deviation of Amount Spent) scores.
+
 **RAG Flow: The application employs a hybrid RAG flow that integrates both a knowledge base (Elasticsearch) and a Large Language Model (LLM) for query rewriting and response generation.
 **Retrieval Evaluation: Multiple retrieval approaches are implemented and evaluated in this project:
 ****BM25: Traditional term-based retrieval method.
